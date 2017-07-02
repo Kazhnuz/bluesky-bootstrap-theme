@@ -12,3 +12,7 @@ Ce theme se base sur du pur bootstrap, et n'utilise pas de theme bootstrap Mater
 - Propulsé par Bootstrap3
 
 Le theme BlueSky est sous licence GPL version 3 :)
+
+## Screenshot
+
+![Screen du theme](screenshot.png)
