@@ -1,9 +1,5 @@
 /* ------------------ GLOBAL STYLE ------------------- */
 
-body {
-  font-size:14px;
-}
-
 #wrapper {
   background: #64b5f6 url('../img/background.png') center bottom repeat-x;
 }
