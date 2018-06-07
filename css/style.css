@@ -1,3 +1,5 @@
+/* ------------------ GLOBAL STYLE ------------------- */
+
 @font-face {
   font-family: 'Comic Neue Angular';
   src: url('../fonts/ComicNeue-Angular-Bold.eot');
@@ -20,12 +22,31 @@
 }
 
 body {
-font-size:14px;
+  font-size:14px;
 }
 
 #wrapper {
   background: #64b5f6 url('../img/background.png') center bottom repeat-x;
 }
+
+.no-pills {
+	list-style:none;
+}
+
+.align-center {
+	text-align:center;
+}
+
+.align-left {
+	text-align:left;
+}
+
+.align-right {
+	text-align:right;
+}
+
+/* ------------------ HEADERS ------------------- */
+
 
 header h1 {
 	border-style:none !important;
@@ -38,42 +59,64 @@ header h1 {
 	padding-bottom:0px;
 }
 
-footer {
-margin-top:40px;
+.navbar {
+	border-radius:0px;
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
 }
 
 .navbar .container .navbar-brand {
-margin-left: 0px;
+  margin-left: 0px;
 }
 
 .navbar-brand img {
-display:inline;
+  display:inline;
 }
 
-@media screen and (max-width:1199px) {
-	.reseaux-sociaux {
-		margin-top:44px
-	}
 
-	#logo {
-	max-width:100%;
-	height:auto;
-	}
+/* ------------------ FOOTER ------------------- */
 
+footer {
+  margin-top:40px;
 }
 
-@media screen and (max-width:991px) {
-	.reseaux-sociaux {
-		margin-top:20px;
-		margin-bottom:20px;
-	}
-
-	#logo {
-	max-width:548px;
-	height:auto;
-	}
+.copyright {
+	text-align:center;
+	padding-bottom:10px;
 }
 
+
+/* ------------------ PANELS ------------------- */
+
+.panel {
+  margin-bottom: 20px;
+  background-color: #FFF;
+  border-radius: 3px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.3);
+  border-color: rgba(0,0,0,0.15);
+  border-style: solid;
+  border-width: 0px;
+}
+
+.panel-heading {
+	border-top-left-radius:3px;
+	border-top-right-radius:3px;
+	border-width:0px;
+}
+
+.panel-noheader {
+	border-top-left-radius: 3px;
+	border-top-right-radius: 3px;
+}
+
+.panel-title {
+	color:#FFF;
+	text-align:center;
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+}
+
+/* meta */
 
 .article-meta .media-left .media-object {
 	height: 64px;
@@ -100,42 +143,7 @@ display:inline;
 	font-style:italic;
 }
 
-.partager {
-  margin:15px;
-}
-
-.panel {
-  margin-bottom: 20px;
-  background-color: #FFF;
-  border-radius: 3px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.3);
-  border-color: rgba(0,0,0,0.15);
-  border-style: solid;
-  border-width: 0px;
-}
-
-.panel-noheader {
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
-
-.btn {
-	border-style:none;
-	border-width:0px;
-	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
-	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
-}
-
-.reagir {
-text-align:right;
-}
-
-.copyright {
-	text-align:center;
-	padding-bottom:10px;
-}
+/* comments */
 
 .titre-commentaires {
 	color:white;
@@ -143,12 +151,9 @@ text-align:right;
 	font-size:2.2em;
 	text-shadow: 0px 2px 8px rgba(0, 0, 0, 0.4);
 	padding-bottom:15px;
-
 }
 
-.no-pills {
-	list-style:none;
-}
+/* lists */
 
 .list-group-item {
 	border-style:none;
@@ -164,15 +169,21 @@ a.list-group-item:hover {
 	background-color:rgba(0,0,0,0.1);
 }
 
-.panel-heading {
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
-	border-width:0px;
-}
 
+/* ------------------ BUTTONS ------------------- */
+
+
+.btn {
+	border-style:none;
+	border-width:0px;
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+}
 .btn:active {
 	box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
 }
+
+/* ------------------ COULEURS ------------------- */
 
 .panel-primary > .panel-heading, .btn-primary {
 	background-color:#3f51b5;
@@ -244,29 +255,18 @@ a.list-group-item:hover {
 	color:#FFF;
 }
 
-.navbar {
-	border-radius:0px;
-	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
-}
+/* ------------------ BREADCRUMB ------------------- */
 
 .breadcrumb {
 	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
 }
 
-.panel-title {
-	color:#FFF;
-	text-align:center;
-	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
+/* ------------------ PARTAGE RESEAUX SOCIAUX ------------------- */
+
+.partager {
+  margin:15px;
 }
 
-.align-center {
-	text-align:center;
-}
-
-.align-left {
-	text-align:left;
-}
-
-.align-right {
-	text-align:right;
+.reagir {
+  text-align:right;
 }
