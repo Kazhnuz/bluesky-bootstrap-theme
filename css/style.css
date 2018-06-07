@@ -234,6 +234,21 @@ a.list-group-item:hover {
   outline: none;
 }
 
+/* ------------------ ALERTS ------------------- */
+
+.alert {
+  border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+  color:rgba(0, 0, 0, 0.7);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3)
+}
+
+.alert a, .alert-link {
+  color:rgba(0, 0, 0, 0.7);
+  font-weight:bold;
+}
+
 /* ------------------ BREADCRUMB ------------------- */
 
 .breadcrumb {
