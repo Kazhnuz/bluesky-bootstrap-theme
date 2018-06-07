@@ -169,8 +169,11 @@ a.list-group-item:hover {
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
 	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
 }
+
 .btn:active {
 	box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
+
+}
 
 /* ------------------ BREADCRUMB ------------------- */
 
@@ -180,7 +183,7 @@ a.list-group-item:hover {
 
 /* ------------------ PARTAGE RESEAUX SOCIAUX ------------------- */
 
-.partager {
+.share-buttons {
   margin:15px;
 }
 
