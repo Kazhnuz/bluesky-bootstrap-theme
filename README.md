@@ -9,7 +9,7 @@ Ce theme se base sur du pur bootstrap, et n'utilise pas de theme bootstrap Mater
 ## Crédits :
 
 - Theme par Kazhnuz
-- Propulsé par Bootstrap3
+- Propulsé par Bootstrap3 et [ForkAwesome](https://forkawesome.github.io/)
 
 Le theme BlueSky est sous licence GPL version 3 :)
 
