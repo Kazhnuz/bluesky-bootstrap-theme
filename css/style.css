@@ -34,8 +34,10 @@ header h1 {
 	font-weight:700;
 	font-size:5.4em;
 	font-style:oblique;
-	text-shadow: 0px 2px 12px rgba(0, 0, 0, 0.4);
+	text-shadow: 0px 2px 12px rgba(0, 0, 0, 0);
 	padding-bottom:0px;
+  margin:auto;
+  text-align:center;
 }
 
 .navbar {
