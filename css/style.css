@@ -60,6 +60,35 @@ footer {
   margin-top:40px;
 }
 
+/* social media */
+
+ul.social {
+  font-size:1.5em;
+  padding-bottom:1em;
+  margin:auto;
+  text-align:center;
+}
+
+li.social-li {
+  list-style:none;
+  display:inline;
+}
+
+a.social-link {
+  color:#FFFFFF;
+  background-color:#000000;
+  padding:0.3em;
+  padding-left:0.36em;
+  padding-right:0.36em;
+  vertical-align:middle;
+  border-radius:100%;
+}
+
+a.social-link:hover {
+  color:#000000;
+  background-color:#FFFFFF;
+}
+
 
 /* ------------------ PANELS ------------------- */
 
