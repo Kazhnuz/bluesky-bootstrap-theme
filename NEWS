@@ -10,6 +10,10 @@
 
 - Switched bootstrap version to bootstrap4
 
+- Components :
+
+  - Adopted a triple-collumn layout for the footer
+
 ## BlueSky 2.x
 
 ### BlueSky 2.1
