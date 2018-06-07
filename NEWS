@@ -4,9 +4,9 @@
 
 ### BlueSky 2.1
 
-- Remove unused classes
+- Removed unused classes
 
-- Rename misleading classes
+- Renamed misleading classes
 
 - Some style fixes
 
@@ -14,4 +14,4 @@
 
 - Remade the style entirely
 
-- Use material design palette
+- Used material design palette
