@@ -61,30 +61,17 @@ footer {
 
 /* ------------------ PANELS ------------------- */
 
-.panel {
-  margin-bottom: 20px;
-  background-color: #FFF;
-  border-radius: 3px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.3);
-  border-color: rgba(0,0,0,0.15);
-  border-style: solid;
-  border-width: 0px;
+.card {
+	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+  border-width:0px;
+  margin-bottom:1.2em;
 }
 
-.panel-heading {
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
-	border-width:0px;
+.card-shadow {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
 }
 
-.panel-noheader {
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-}
-
-.panel-title {
+.card-title {
 	color:#FFF;
 	text-align:center;
 	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
@@ -92,27 +79,29 @@ footer {
 
 /* meta */
 
-.article-meta .media-left .media-object {
+.card-meta {
+	padding:1em;
+  border-bottom:1px solid rgba(0,0,0,0.2);
+}
+
+.card-meta.media {
+  -ms-flex-align: center !important;
+  align-items: center !important;
+}
+
+.card-meta .media-left .media-object {
 	height: 64px;
 	width: 64px;
 	border-radius: 10px;
+  margin-right:1em;
 }
 
-.article-meta author {
+.card-meta author {
 	display:block;
 	font-weight:600;
 }
 
-.article-meta .media-body {
-	padding-top:8px;
-}
-
-.article-meta {
-	margin-bottom:15px;
-	margin-left:15px;
-}
-
-.article-meta time {
+.card-meta time {
 	display:block;
 	font-style:italic;
 }
