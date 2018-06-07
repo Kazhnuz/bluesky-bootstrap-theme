@@ -177,17 +177,61 @@ a.list-group-item:hover {
 
 /* ------------------ BUTTONS ------------------- */
 
-
 .btn {
-	border-style:none;
-	border-width:0px;
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
 	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
 	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
 }
 
-.btn:active {
-	box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
+.btn:hover {
+  position:relative;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  top:1px;
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+}
 
+.btn:active {
+  position:relative;
+	box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
+  top:2px;
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+}
+
+.btn-group {
+	box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.btn-group .btn {
+	box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-group .btn:hover {
+  position:relative;
+  top:1px;
+	box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.btn-group .btn:active, .btn:not(:disabled):not(.disabled):active, .btn:not(:disabled):not(.disabled).active,
+.show > .btn.dropdown-toggle {
+  position:relative;
+	box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2)!important;
+  top:2px;
+	border-style:solid;
+	border-width:1px;
+  border-color:rgba(0, 0, 0, 0.3);
+}
+
+.btn:focus, .btn-primary:focus, .btn-secondary:focus, .btn-danger:focus, .btn-warning:focus, .btn-success:focus, .btn-info:focus, .btn-dark:focus, .btn-light:focus {
+  position:relative;
+	box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px #75507b;
+  top:1px;
+  outline: none;
 }
 
 /* ------------------ BREADCRUMB ------------------- */
