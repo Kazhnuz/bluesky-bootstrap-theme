@@ -27,75 +27,6 @@ font-size:14px;
   background: #64b5f6 url('../img/background.png') center bottom repeat-x;
 }
 
-.whitebox {
-	background-color:#FFF;
-
-	border-color:rgba(0,0,0,0.2);
-	border-style:solid;
-	border-width:1px;
-	border-top:0px;
-
-	-webkit-border-bottom-right-radius: 3px;
-	-webkit-border-bottom-left-radius: 3px;
-	-moz-border-radius-bottomright: 3px;
-	-moz-border-radius-bottomleft: 3px;
-	border-bottom-right-radius: 3px;
-	border-bottom-left-radius: 3px;
-
-	padding-bottom:30px;
-	padding-top:30px;
-}
-
-.menu-media-selector {
-	background-image: -ms-linear-gradient(top, #696969 0%, #303030 100%);
-	background-image: -moz-linear-gradient(top, #696969 0%, #303030 100%);
-	background-image: -o-linear-gradient(top, #696969 0%, #303030 100%);
-	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #696969), color-stop(1, #303030));
-	background-image: -webkit-linear-gradient(top, #696969 0%, #303030 100%);
-	background-image: linear-gradient(to bottom, #696969 0%, #303030 100%);
-
-	border-color:rgba(0,0,0,0.2);
-	border-style:solid;
-	border-width:1px;
-	border-bottom:0px
-
-	-webkit-border-top-left-radius: 3px;
-	-webkit-border-top-right-radius: 3px;
-	-moz-border-radius-topleft: 3px;
-	-moz-border-radius-topright: 3px;
-	border-top-left-radius: 3px;
-	border-top-right-radius: 3px;
-
-}
-
-.main-wrapper {
-	box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.3);
-	border-radius: 3px;
-	margin-top:10px;
-	margin-bottom:10px;
-}
-
-.menu-media-selector .nav  li  a, .menu-media-selector .nav  li  a {
-	color:#FFF;
-    	font-weight: 600;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
-}
-
-.menu-media-selector .nav  li  a:hover, .menu-media-selector .nav  li  a:focus {
-	background-color:rgba(0,0,0,0);
-    	font-weight: 600;
-	text-shadow: 1px 1px 0px rgba(0,0,0,0.6);
-}
-
-.reseaux-sociaux {
-color:white;
-font-size: 2em;
-text-align:center;
-vertical-align:middle;
-letter-spacing:1em;
-margin-top:55px;
-}
-
 header h1 {
 	border-style:none !important;
 	color:#FFF;
@@ -143,46 +74,6 @@ display:inline;
 	}
 }
 
-@media screen and (max-width:767px) {
-.whitebox {
-border-radius:0px !important;
-box-shadow:0px 0px 0px rgba(0,0,0,0) !important;
-border-style:none !important;
-}
-
-.menu-media-selector {
-border-radius:0px !important;
-box-shadow:0px 0px 0px rgba(0,0,0,0) !important;
-border-style:none !important;
-}
-
-	.main-wrapper {
-		box-shadow:0px 0px 0px rgba(0,0,0,0) !important;
-	}
-
-
-}
-
-@media screen and (max-width:500px) {
-	.reseaux-sociaux {
-		margin-top:15px;
-		margin-bottom:15px;
-		font-size:1.5em;
-	}
-
-	#logo {
-	min-width:100%;
-	height:auto;
-	}
-}
-
-.tab-content {
-	padding-top:20px;
-}
-
-.nav-tabs li a {
-	border: 0px solid transparent;
-}
 
 .article-meta .media-left .media-object {
 	height: 64px;
