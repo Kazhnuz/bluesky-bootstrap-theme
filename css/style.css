@@ -41,16 +41,15 @@ header h1 {
 }
 
 .navbar {
-	border-radius:0px;
-	box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.1);
+  border-width:0px;
+  border-bottom:1px;
+  border-style:solid;
+  border-color:rgba(0,0,0,0.3)
 }
 
-.navbar .container .navbar-brand {
-  margin-left: 0px;
-}
-
-.navbar-brand img {
-  display:inline;
+.dropdown-menu {
+  box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.2), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
 }
 
 
