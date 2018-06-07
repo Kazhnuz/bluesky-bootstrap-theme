@@ -101,19 +101,19 @@ display:inline;
 }
 
 .partager {
-margin:15px;
+  margin:15px;
 }
 
 .panel {
-margin-bottom: 20px;
-background-color: #FFF;
-border-radius: 3px;
-border-top-left-radius: 5px;
-border-top-right-radius: 5px;
-box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.3);
-border-color: rgba(0,0,0,0.15);
-border-style: solid;
-border-width: 0px;
+  margin-bottom: 20px;
+  background-color: #FFF;
+  border-radius: 3px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.3);
+  border-color: rgba(0,0,0,0.15);
+  border-style: solid;
+  border-width: 0px;
 }
 
 .panel-noheader {
