@@ -97,6 +97,12 @@ a.social-link:hover {
   margin-bottom:1.2em;
 }
 
+.card-shadow {
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+/* header and titles */
+
 .card-header {
 	border-top-left-radius:3px;
 	border-top-right-radius:3px;
@@ -114,10 +120,6 @@ a.social-link:hover {
 .card h1,.card h2,.card h3,.card h4,.card h5,.card h6,.card h7,.card h8,.card h9,.card h10  {
 	color:#333;
 	text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
-}
-
-.card-shadow {
-  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
 }
 
 h1.card-title, h2.card-title, h3.card-title, h4.card-title, h5.card-title, h6.card-title, h7.card-title, h8.card-title, h9.card-title, h10.card-title  {
