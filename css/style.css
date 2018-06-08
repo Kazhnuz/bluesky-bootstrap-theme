@@ -270,3 +270,101 @@ a.list-group-item:hover {
 .reagir {
   text-align:right;
 }
+
+/* ------------------ PREVIEWS ------------------- */
+
+.card-preview {
+  width:242px;
+  margin:1em;
+  box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.preview-link:hover {
+  text-decoration:none!important;
+}
+
+.preview-item {
+  display: flex;
+  height:200px;
+  overflow:hidden;
+  font-size:0.9em;
+	line-height: 1.5em !important;
+  padding:0.2em;
+  text-align:justify;
+  background-color:rgba(0,0,0,0.05);
+  color:rgba(0,0,0,0.4);
+	position: relative;
+  -ms-flex-align: center !important;
+  align-items: center !important;
+  flex: 1 1 auto;
+}
+
+.preview-content {
+  max-height:200px;
+}
+
+.preview-content > p {
+  width:100%;
+}
+
+.preview-content > p > img {
+  width:100%;
+  height:auto;
+  vertical-align:middle;
+}
+
+.preview-item h1, .preview-item h2, .preview-item h3, .preview-item h4, .preview-item h5, .preview-item h6, .preview-item h7 {
+  margin-bottom:0px;
+  max-width:100%;
+  display:none;
+}
+
+.preview-item h1 {
+  display:none;
+}
+
+.preview-overlay {
+	height: 100%;
+	width: 100%;
+	opacity: 0;
+	top: 0;
+	left: 0;
+	position: absolute;
+	padding: 0;
+	transition: opacity .5s;
+	color: #FFF;
+	background-color: rgba(0,0,0,0.5);
+	text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+  backdrop-filter: none;
+}
+
+.preview-overlay h1 {
+  max-width:100%;
+  padding-top:0.3em;
+  margin:auto;
+  margin-bottom:0px;
+  text-align:center;
+  display:block;
+  font-size:2em;
+  color: white;
+}
+
+.preview-overlay h1,.preview-overlay h2,.preview-overlay h3,.preview-overlay h4,.preview-overlay h5,.preview-overlay h6,.preview-overlay h7,.preview-overlay h8,.preview-overlay h9,.preview-overlay h10  {
+	color:white;
+  text-shadow: 1px 1px 0px rgba(0,0,0,0.7);
+}
+
+.preview-item:hover .preview-overlay {
+  opacity: .9;
+  transition: opacity .5s;
+  backdrop-filter: blur(2px);
+}
+
+.comment-text {
+  margin-top:0.8em;
+}
+
+.card-preview time {
+  margin-bottom:0.4em;
+  display:block;
+}
