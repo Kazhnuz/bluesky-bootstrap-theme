@@ -273,9 +273,42 @@ a.list-group-item:hover {
 
 /* ------------------ PREVIEWS ------------------- */
 
+.previews-section {
+  display: flex;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.preview-container {
+  margin-bottom:1em;
+  padding:0.4em;
+  width:100%
+}
+
+
+
+@media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){
+
+  .prev-col-2 .preview-container {
+    width:50%;
+  }
+
+  .prev-col-3 .preview-container {
+    width:33%;
+  }
+
+  .prev-col-4 .preview-container {
+    width:25%;
+  }
+
+}
+
 .card-preview {
-  width:242px;
-  margin:1em;
+  width:100%;
+  
+  margin:auto;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
 }
 
@@ -284,7 +317,7 @@ a.list-group-item:hover {
 }
 
 .preview-item {
-  display: flex;
+  
   height:200px;
   overflow:hidden;
   font-size:0.9em;
@@ -294,9 +327,12 @@ a.list-group-item:hover {
   background-color:rgba(0,0,0,0.05);
   color:rgba(0,0,0,0.4);
 	position: relative;
+	
+	
+	display: flex;
   -ms-flex-align: center !important;
   align-items: center !important;
-  flex: 1 1 auto;
+  justify-content: center;
 }
 
 .preview-content {
@@ -305,12 +341,23 @@ a.list-group-item:hover {
 
 .preview-content > p {
   width:100%;
+  margin:auto;
+}
+
+.preview-content > p.p-img {
+  text-align:center;
+  margin:auto;
+  padding:auto;
+  display: block;
+  width:100%;
 }
 
 .preview-content > p > img {
-  width:100%;
+  max-width:100%;
   height:auto;
   vertical-align:middle;
+  margin:auto;
+  text-align:center;
 }
 
 .preview-item h1, .preview-item h2, .preview-item h3, .preview-item h4, .preview-item h5, .preview-item h6, .preview-item h7 {
