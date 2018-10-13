@@ -18,64 +18,89 @@ $color-danger: $color-red;
 $color-info: $color-skyblue;
 $color-success: $color-green;
 
+@mixin card-color($background-color, $text-color) {
+  & > .card-header { background-color: $background-color; color:$text-color; }
+}
+
+/* CARDS */
+
+.card {
+  &-blue { @include card-color($color-blue, #FFF); }
+  &-violet { @include card-color($color-violet, #FFF); }
+  &-purple { @include card-color($color-purple, #FFF); }
+  &-red { @include card-color($color-red, #FFF); }
+  &-orange { @include card-color($color-orange, #FFF); }
+  &-green { @include card-color($color-green, #FFF); }
+  &-skyblue { @include card-color($color-skyblue, #FFF); }
+  &-dark { @include card-color($color-dark, #FFF); }
+  &-light { @include card-color($color-light, #111); }
+  &-turquoise { @include card-color($color-turquoise, #FFF); }
+  
+  &-primary { @include card-color($color-primary, #FFF); }
+  &-secondary { @include card-color($color-secondary, #FFF); }
+  &-warning { @include card-color($color-warning, #FFF); }
+  &-danger { @include card-color($color-danger, #FFF); }
+  &-info { @include card-color($color-info, #FFF); }
+  &-success { @include card-color($color-success, #FFF); }
+}
+
 /* de base */
 
-
-.card-primary > .card-header, .btn-primary, .btn-primary:hover, .btn-primary:active, .badge-primary {
+.btn-primary, .btn-primary:hover, .btn-primary:active, .badge-primary {
 	background-color:#7951c0;
   color:#FFF;
 }
 
-.card-secondary > .card-header, .btn-secondary, .btn-secondary:hover, .btn-secondary:active, .badge-secondary {
+.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .badge-secondary {
 	background-color:#4e63c9;
 	color:#FFF;
 }
 
-.card-danger > .card-header, .card-red > .card-header, .btn-danger, .btn-red, .badge-red, .badge-danger {
+.btn-danger, .btn-red, .badge-red, .badge-danger {
 	background-color:#e33d22;
   color:#FFF;
 }
 
-.card-warning > .card-header, .card-orange > .card-header, .btn-warning, .btn-orange, .badge-warning, .badge-orange {
+.btn-warning, .btn-orange, .badge-warning, .badge-orange {
 	background-color:#eb790a;
   color:#FFF;
 }
 
-.card-success > .card-header, .card-green > .card-header, .btn-success, .btn-green, .badge-success, .badge-green {
+.btn-success, .btn-green, .badge-success, .badge-green {
 	background-color:#75b82d;
   color:#FFF;
 }
 
-.card-info > .card-header, .card-skyblue > .card-header, .btn-info, .btn-skyblue, .badge-info, .badge-skyblue {
+.btn-info, .btn-skyblue, .badge-info, .badge-skyblue {
 	background-color:#42a0f3;
   color:#FFF;
 }
 
-.card-blue > .card-header, .btn-blue, .badge-blue {
+.btn-blue, .badge-blue {
 	background-color:#4e63c9;
 	color:#FFF
 }
 
-.card-purple > .card-header, .btn-purple, .badge-purple {
+.btn-purple, .badge-purple {
 	background-color:#7951c0;
 	color:#FFF
 }
 
-.card-dark > .card-header, .btn-dark, .badge-dark {
+.btn-dark, .badge-dark {
 	background-color:#6d6d6d;
 	color:#FFF
 }
 
-.card-light > .card-header, .btn-light, .badge-light {
+.btn-light, .badge-light {
 	background-color:#eeeeec;
 }
 
-.card-violet > .card-header, .btn-violet, .badge-violet {
+.btn-violet, .badge-violet {
 	background-color:#ce4dcd;
   color:#FFF
 }
 
-.card-turquoise > .card-header, .btn-turquoise, .badge-turquoise {
+.btn-turquoise, .badge-turquoise {
 	background-color:#46bd9e;
   color:#FFF
 }
