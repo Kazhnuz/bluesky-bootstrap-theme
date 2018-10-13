@@ -342,3 +342,52 @@
 .alert-success {
   background-color: #d9f0c1;
   color: black; }
+
+/* TEXT */
+.text-blue {
+  color: #4e63c9; }
+
+.text-violet {
+  color: #ce4dcd; }
+
+.text-purple {
+  color: #7951c0; }
+
+.text-red {
+  color: #e33d22; }
+
+.text-orange {
+  color: #eb790a; }
+
+.text-green {
+  color: #75b82d; }
+
+.text-skyblue {
+  color: #42a0f3; }
+
+.text-dark {
+  color: #6d6d6d; }
+
+.text-light {
+  color: #eeeeec; }
+
+.text-turquoise {
+  color: #46bd9e; }
+
+.text-primary {
+  color: #7951c0; }
+
+.text-secondary {
+  color: #4e63c9; }
+
+.text-warning {
+  color: #eb790a; }
+
+.text-danger {
+  color: #e33d22; }
+
+.text-info {
+  color: #42a0f3; }
+
+.text-success {
+  color: #75b82d; }
