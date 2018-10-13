@@ -177,6 +177,7 @@
     background-color: #8fd246;
     color: #FFF; }
 
+/* social */
 .btn-facebook {
   background-color: #3B5998;
   color: #FFF; }
@@ -212,10 +213,70 @@
     background-color: #3d4455;
     color: #FFF; }
 
-/* social */
-/* de base */
+/* BACKGROUNDS */
+.bg-blue {
+  background-color: #4e63c9 !important;
+  color: #FFF; }
+
+.bg-violet {
+  background-color: #ce4dcd !important;
+  color: #FFF; }
+
+.bg-purple {
+  background-color: #7951c0 !important;
+  color: #FFF; }
+
+.bg-red {
+  background-color: #e33d22 !important;
+  color: #FFF; }
+
+.bg-orange {
+  background-color: #eb790a !important;
+  color: #FFF; }
+
+.bg-green {
+  background-color: #75b82d !important;
+  color: #FFF; }
+
+.bg-skyblue {
+  background-color: #42a0f3 !important;
+  color: #FFF; }
+
+.bg-dark {
+  background-color: #6d6d6d !important;
+  color: #FFF; }
+
+.bg-light {
+  background-color: #eeeeec !important;
+  color: #111; }
+
+.bg-turquoise {
+  background-color: #46bd9e !important;
+  color: #FFF; }
+
 .bg-primary {
-  background-color: #7951c0 !important; }
+  background-color: #7951c0 !important;
+  color: #FFF; }
+
+.bg-secondary {
+  background-color: #4e63c9 !important;
+  color: #FFF; }
+
+.bg-warning {
+  background-color: #eb790a !important;
+  color: #FFF; }
+
+.bg-danger {
+  background-color: #e33d22 !important;
+  color: #FFF; }
+
+.bg-info {
+  background-color: #42a0f3 !important;
+  color: #FFF; }
+
+.bg-success {
+  background-color: #75b82d !important;
+  color: #FFF; }
 
 /* alertes */
 .alert-primary {
