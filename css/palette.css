@@ -2,6 +2,14 @@
 a, a:hover, a:active {
   color: #4e63c9; }
 
+::selection {
+  background-color: #4e63c9 !important;
+  color: #FFF; }
+
+::-moz-selection {
+  background-color: #4e63c9 !important;
+  color: #FFF; }
+
 /* CARDS */
 .card-blue > .card-header {
   background-color: #4e63c9;
