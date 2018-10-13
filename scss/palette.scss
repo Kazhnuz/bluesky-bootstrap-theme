@@ -22,6 +22,12 @@ $color-success: $color-green;
   & > .card-header { background-color: $background-color; color:$text-color; }
 }
 
+@mixin button-color($background-color, $text-color) {
+  background-color: $background-color;
+  &:hover, &:active, &:focus, &[href]:hover, &[href]:active, &[href]:focus {background-color: lighten($background-color, 10%); color:$text-color;}
+  color: $text-color;
+}
+
 /* CARDS */
 
 .card {
@@ -44,136 +50,41 @@ $color-success: $color-green;
   &-success { @include card-color($color-success, #FFF); }
 }
 
+/* BUTTONS & BADGES */
+
+.btn, .badge {
+  &-blue { @include button-color($color-blue, #FFF); }
+  &-violet { @include button-color($color-violet, #FFF); }
+  &-purple { @include button-color($color-purple, #FFF); }
+  &-red { @include button-color($color-red, #FFF); }
+  &-orange { @include button-color($color-orange, #FFF); }
+  &-green { @include button-color($color-green, #FFF); }
+  &-skyblue { @include button-color($color-skyblue, #FFF); }
+  &-dark { @include button-color($color-dark, #FFF); }
+  &-light { @include button-color($color-light, #111); }
+  &-turquoise { @include button-color($color-turquoise, #FFF); }
+  
+  &-primary { @include button-color($color-primary, #FFF); }
+  &-secondary { @include button-color($color-secondary, #FFF); }
+  &-warning { @include button-color($color-warning, #FFF); }
+  &-danger { @include button-color($color-danger, #FFF); }
+  &-info { @include button-color($color-info, #FFF); }
+  &-success { @include button-color($color-success, #FFF); }
+}
+
+.btn {
+  &-facebook {@include button-color(#3B5998, #FFF);}
+  &-twitter {@include button-color(#55ACEE, #FFF);}
+  &-googleplus {@include button-color(#d34836, #FFF);}
+  &-diaspora {@include button-color(#313739, #FFF);}
+  &-mastodon {@include button-color(#282c37, #FFF);}
+}
+
+/* social */
+
+
+
 /* de base */
-
-.btn-primary, .btn-primary:hover, .btn-primary:active, .badge-primary {
-	background-color:#7951c0;
-  color:#FFF;
-}
-
-.btn-secondary, .btn-secondary:hover, .btn-secondary:active, .badge-secondary {
-	background-color:#4e63c9;
-	color:#FFF;
-}
-
-.btn-danger, .btn-red, .badge-red, .badge-danger {
-	background-color:#e33d22;
-  color:#FFF;
-}
-
-.btn-warning, .btn-orange, .badge-warning, .badge-orange {
-	background-color:#eb790a;
-  color:#FFF;
-}
-
-.btn-success, .btn-green, .badge-success, .badge-green {
-	background-color:#75b82d;
-  color:#FFF;
-}
-
-.btn-info, .btn-skyblue, .badge-info, .badge-skyblue {
-	background-color:#42a0f3;
-  color:#FFF;
-}
-
-.btn-blue, .badge-blue {
-	background-color:#4e63c9;
-	color:#FFF
-}
-
-.btn-purple, .badge-purple {
-	background-color:#7951c0;
-	color:#FFF
-}
-
-.btn-dark, .badge-dark {
-	background-color:#6d6d6d;
-	color:#FFF
-}
-
-.btn-light, .badge-light {
-	background-color:#eeeeec;
-}
-
-.btn-violet, .badge-violet {
-	background-color:#ce4dcd;
-  color:#FFF
-}
-
-.btn-turquoise, .badge-turquoise {
-	background-color:#46bd9e;
-  color:#FFF
-}
-
-/* :hover */
-
-.btn-primary:hover, .btn-primary:active, .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
-	background-color:#9373cc;
-	color:#FFF;
-}
-
-.btn-secondary:hover, .btn-secondary:active, .btn-secondary:not(:disabled):not(.disabled):active, .btn-secondary:not(:disabled):not(.disabled).active,
-.show > .btn-secondary.dropdown-toggle {
-	background-color:#7182d3;
-	color:#FFF;
-}
-
-.btn-blue:hover, .btn-blue:active {
-	background-color:#7182d3;
-	color:#FFF;
-}
-
-.btn-purple:hover, .btn-purple:active {
-	background-color:#9373cc;
-	color:#FFF;
-}
-
-.btn-success:hover, .btn-success:active, .btn-success:not(:disabled):not(.disabled):active, .btn-success:not(:disabled):not(.disabled).active,
-.show > .btn-success.dropdown-toggle, .btn-green:hover, .btn-green:active {
-	background-color:#90c657;
-	color:#FFF;
-}
-
-.btn-info:hover, .btn-info:active, .btn-info:not(:disabled):not(.disabled):active, .btn-info:not(:disabled):not(.disabled).active,
-.show > .btn-info.dropdown-toggle, .btn-skyblue:hover, .btn-skyblue:active {
-	background-color:#67b3f5;
-	color:#FFF;
-}
-
-.btn-warning:hover, .btn-warning:active, .btn-warning:not(:disabled):not(.disabled):active, .btn-warning:not(:disabled):not(.disabled).active,
-.show > .btn-warning.dropdown-toggle, .btn-orange:hover, .btn-orange:active {
-	background-color:#ef933b;
-	color:#FFF;
-}
-
-.btn-danger:hover, .btn-danger:active, .btn-danger:not(:disabled):not(.disabled):active, .btn-danger:not(:disabled):not(.disabled).active,
-.show > .btn-danger.dropdown-toggle, .btn-red:hover, .btn-red:active {
-	background-color:#e8634e;
-	color:#FFF;
-}
-
-.btn-dark:hover, .btn-dark:active, .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
-.show > .btn-dark.dropdown-toggle {
-	background-color:#8a8a8a;
-	color:#FFF;
-}
-
-.btn-light:hover, .btn-light:active, .btn-light:not(:disabled):not(.disabled):active, .btn-light:not(:disabled):not(.disabled).active,
-.show > .btn-light.dropdown-toggle  {
-	background-color:#dddddd;
-	color:#000;
-}
-
-.btn-violet:hover, .btn-violet:active {
-	background-color:#d770d7;
-	color:#FFF;
-}
-
-.btn-turquoise:hover, .btn-turquoise:active {
-	background-color:#6bcab1;
-	color:#FFF;
-}
 
 .bg-primary {
   background-color:#7951c0!important;
@@ -244,56 +155,4 @@ $color-success: $color-green;
 
 .alert-dark {
   background-color:#e1e1e1;
-}
-
-/* social */
-
-.btn-facebook {
-  background-color:#3B5998;
-  color:#FFF;
-}
-
-.btn-facebook:hover, .btn-facebook:active {
-	background-color:#627aac;
-	color:#FFF;
-}
-
-.btn-twitter {
-  background-color:#55ACEE;
-  color:#FFF;
-}
-
-.btn-twitter:hover, .btn-twitter:active {
-	background-color:#77bcf1;
-	color:#FFF;
-}
-
-.btn-googleplus {
-  background-color:#d34836;
-  color:#FFF;
-}
-
-.btn-googleplus:hover, .btn-googleplus:active {
-	background-color:#db6c5e;
-	color:#FFF;
-}
-
-.btn-diaspora {
-  background-color:#313739;
-  color:#FFF;
-}
-
-.btn-diaspora:hover, .btn-diaspora:active {
-	background-color:#5a5f60;
-	color:#FFF;
-}
-
-.btn-mastodon {
-  background-color:#282c37;
-  color:#FFF;
-}
-
-.btn-mastodon:hover, .btn-mastodon:active {
-	background-color:#53565f;
-	color:#FFF;
 }
