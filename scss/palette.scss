@@ -18,6 +18,8 @@ $color-danger: $color-red;
 $color-info: $color-skyblue;
 $color-success: $color-green;
 
+$color-link: $color-blue;
+
 @mixin card-color($background-color, $text-color) {
   & > .card-header { background-color: $background-color; color:$text-color; }
 }
@@ -40,6 +42,10 @@ $color-success: $color-green;
 
 @mixin text-color($text-color) {
   color: $text-color;
+}
+
+a, a:hover, a:active {
+  color: $color-link;
 }
 
 /* CARDS */
