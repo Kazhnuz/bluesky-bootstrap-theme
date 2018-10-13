@@ -280,35 +280,35 @@
 
 /* ALERTS */
 .alert-blue {
-  background-color: #eaedf9;
+  background-color: #d7dcf3;
   color: black; }
 
 .alert-violet {
-  background-color: #faedfa;
+  background-color: #f5d9f4;
   color: black; }
 
 .alert-purple {
-  background-color: #ece7f6;
+  background-color: #ded4ef;
   color: black; }
 
 .alert-red {
-  background-color: #fadcd7;
+  background-color: #f7c8c0;
   color: black; }
 
 .alert-orange {
-  background-color: #fde0c4;
+  background-color: #fbd3ac;
   color: black; }
 
 .alert-green {
-  background-color: #d9f0c1;
+  background-color: #cdebad;
   color: black; }
 
 .alert-skyblue {
-  background-color: white;
+  background-color: #eaf4fe;
   color: black; }
 
 .alert-dark {
-  background-color: lightgray;
+  background-color: #c6c6c6;
   color: black; }
 
 .alert-light {
@@ -316,31 +316,31 @@
   color: #23231f; }
 
 .alert-turquoise {
-  background-color: #dcf3ed;
+  background-color: #caece3;
   color: black; }
 
 .alert-primary {
-  background-color: #ece7f6;
+  background-color: #ded4ef;
   color: black; }
 
 .alert-secondary {
-  background-color: #eaedf9;
+  background-color: #d7dcf3;
   color: black; }
 
 .alert-warning {
-  background-color: #fde0c4;
+  background-color: #fbd3ac;
   color: black; }
 
 .alert-danger {
-  background-color: #fadcd7;
+  background-color: #f7c8c0;
   color: black; }
 
 .alert-info {
-  background-color: white;
+  background-color: #eaf4fe;
   color: black; }
 
 .alert-success {
-  background-color: #d9f0c1;
+  background-color: #cdebad;
   color: black; }
 
 /* TEXT */

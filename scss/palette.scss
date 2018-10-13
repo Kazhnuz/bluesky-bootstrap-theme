@@ -34,7 +34,7 @@ $color-success: $color-green;
 }
 
 @mixin alert-color($background-color) {
-  background-color: lighten($background-color, 40%);
+  background-color: lighten($background-color, 35%);
   color: darken($background-color, 80%);
 }
 
