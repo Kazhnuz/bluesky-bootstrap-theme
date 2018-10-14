@@ -26,16 +26,28 @@ $color-selection: $color-blue;
 }
 
 @mixin button-lighten($background-color, $text-color) {
-  &:hover, &:active, &:focus, &[href]:hover, &[href]:active, &[href]:focus {
-    background-color: lighten($background-color, 10%); 
-    color:$text-color;
-  }
+  background-color: lighten($background-color, 10%); 
+  color:$text-color;
 }
 
 @mixin button-color($background-color, $text-color) {
   background-color: $background-color;
-  &, &:not(.disabled):not(:disabled) {@include button-lighten($background-color, $text-color);}
   color: $text-color;
+  &, &:not(.disabled):not(:disabled) {
+    &:hover, &:active, &:focus {
+      @include button-lighten($background-color, $text-color);
+    }
+  }
+}
+
+@mixin badge-color($background-color, $text-color) {
+  background-color: $background-color;
+  color: $text-color;
+    &, &:not(.disabled):not(:disabled) {
+    &:hover, &:active, &:focus, a:hover > &, a:active > &, a:focus > & {
+      @include button-lighten($background-color, $text-color);
+    }
+  }
 }
 
 @mixin background-color($background-color, $text-color) {
@@ -87,7 +99,7 @@ a, a:hover, a:active {
 
 /* BUTTONS & BADGES */
 
-.btn, .badge {
+.btn {
   &-blue { @include button-color($color-blue, #FFF); }
   &-violet { @include button-color($color-violet, #FFF); }
   &-purple { @include button-color($color-purple, #FFF); }
@@ -115,6 +127,28 @@ a, a:hover, a:active {
   &-googleplus {@include button-color(#d34836, #FFF);}
   &-diaspora {@include button-color(#313739, #FFF);}
   &-mastodon {@include button-color(#282c37, #FFF);}
+}
+
+/* BADGES */
+
+.badge {
+  &-blue { @include badge-color($color-blue, #FFF); }
+  &-violet { @include badge-color($color-violet, #FFF); }
+  &-purple { @include badge-color($color-purple, #FFF); }
+  &-red { @include badge-color($color-red, #FFF); }
+  &-orange { @include badge-color($color-orange, #FFF); }
+  &-green { @include badge-color($color-green, #FFF); }
+  &-skyblue { @include badge-color($color-skyblue, #FFF); }
+  &-dark { @include badge-color($color-dark, #FFF); }
+  &-light { @include badge-color($color-light, #111); }
+  &-turquoise { @include badge-color($color-turquoise, #FFF); }
+  
+  &-primary { @include badge-color($color-primary, #FFF); }
+  &-secondary { @include badge-color($color-secondary, #FFF); }
+  &-warning { @include badge-color($color-warning, #FFF); }
+  &-danger { @include badge-color($color-danger, #FFF); }
+  &-info { @include badge-color($color-info, #FFF); }
+  &-success { @include badge-color($color-success, #FFF); }
 }
 
 /* BACKGROUNDS */
