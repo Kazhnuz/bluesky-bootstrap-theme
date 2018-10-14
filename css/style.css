@@ -32,9 +32,9 @@ header h1 {
 
 .navbar {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-  border-width: 1px 0px 1px 0px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 0.3); }
+  border: 2px solid rgba(0, 0, 0, 0.3);
+  border-left: 0;
+  border-right: 0; }
 
 .dropdown-menu {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
@@ -70,7 +70,7 @@ a.social-link:hover {
 /* ------------------ CARDS ------------------- */
 .card {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-  border-width: 0px;
+  border: none;
   margin-bottom: 1.2em; }
 
 .card-shadow {
@@ -80,11 +80,7 @@ a.social-link:hover {
 .card-header {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
-  border-top: 1px solid;
-  border-left: 1px solid;
-  border-right: 1px solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   font-size: 1.1em;
   box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.1);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
@@ -105,7 +101,7 @@ h1.card-title, h2.card-title, h3.card-title, h4.card-title, h5.card-title, h6.ca
 /* meta */
 .card-meta {
   padding: 1em;
-  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
 
 .card-meta.media {
   -ms-flex-align: center !important;
@@ -127,9 +123,7 @@ h1.card-title, h2.card-title, h3.card-title, h4.card-title, h5.card-title, h6.ca
 
 /* lists */
 .list-group-item {
-  border-style: none;
-  border-width: 0px;
-  border-radius: 0px;
+  border: none;
   background-color: transparent; }
 
 a.list-group-item:hover {
@@ -140,9 +134,7 @@ a.list-group-item:hover {
 
 /* ------------------ BUTTONS ------------------- */
 .btn {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); }
 
@@ -150,17 +142,13 @@ a.list-group-item:hover {
   position: relative;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   top: 1px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.3); }
+  border: 2px solid rgba(0, 0, 0, 0.3); }
 
 .btn:active {
   position: relative;
   box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
   top: 2px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.3); }
+  border: 2px solid rgba(0, 0, 0, 0.3); }
 
 .btn-group {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); }
@@ -178,9 +166,7 @@ a.list-group-item:hover {
   position: relative;
   box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2) !important;
   top: 2px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.3); }
+  border: 2px solid rgba(0, 0, 0, 0.3); }
 
 .btn:focus, .btn-primary:focus, .btn-secondary:focus, .btn-danger:focus, .btn-warning:focus, .btn-success:focus, .btn-info:focus, .btn-dark:focus, .btn-light:focus {
   position: relative;
@@ -190,9 +176,7 @@ a.list-group-item:hover {
 
 /* ------------------ ALERTS ------------------- */
 .alert {
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(0, 0, 0, 0.3);
+  border: 2px solid rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.7);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); }
 
@@ -203,8 +187,7 @@ a.list-group-item:hover {
 /* ------------------ BREADCRUMB ------------------- */
 .breadcrumb {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
-  border-color: rgba(0, 0, 0, 0.3);
-  border-width: 1px;
+  border: 0;
   background-color: #eeeeec;
   margin-bottom: 1.2em; }
 
