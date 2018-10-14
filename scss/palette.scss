@@ -25,9 +25,16 @@ $color-selection: $color-blue;
   & > .card-header { background-color: $background-color; color:$text-color; }
 }
 
+@mixin button-lighten($background-color, $text-color) {
+  &:hover, &:active, &:focus, &[href]:hover, &[href]:active, &[href]:focus {
+    background-color: lighten($background-color, 10%); 
+    color:$text-color;
+  }
+}
+
 @mixin button-color($background-color, $text-color) {
   background-color: $background-color;
-  &:hover, &:active, &:focus, &[href]:hover, &[href]:active, &[href]:focus {background-color: lighten($background-color, 10%); color:$text-color;}
+  &, &:not(.disabled):not(:disabled) {@include button-lighten($background-color, $text-color);}
   color: $text-color;
 }
 

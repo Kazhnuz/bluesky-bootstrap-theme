@@ -79,112 +79,112 @@ a, a:hover, a:active {
 .btn-blue, .badge-blue {
   background-color: #4e63c9;
   color: #FFF; }
-  .btn-blue:hover, .btn-blue:active, .btn-blue:focus, .btn-blue[href]:hover, .btn-blue[href]:active, .btn-blue[href]:focus, .badge-blue:hover, .badge-blue:active, .badge-blue:focus, .badge-blue[href]:hover, .badge-blue[href]:active, .badge-blue[href]:focus {
+  .btn-blue:hover, .btn-blue:active, .btn-blue:focus, .btn-blue[href]:hover, .btn-blue[href]:active, .btn-blue[href]:focus, .btn-blue:not(.disabled):not(:disabled):hover, .btn-blue:not(.disabled):not(:disabled):active, .btn-blue:not(.disabled):not(:disabled):focus, .btn-blue:not(.disabled):not(:disabled)[href]:hover, .btn-blue:not(.disabled):not(:disabled)[href]:active, .btn-blue:not(.disabled):not(:disabled)[href]:focus, .badge-blue:hover, .badge-blue:active, .badge-blue:focus, .badge-blue[href]:hover, .badge-blue[href]:active, .badge-blue[href]:focus, .badge-blue:not(.disabled):not(:disabled):hover, .badge-blue:not(.disabled):not(:disabled):active, .badge-blue:not(.disabled):not(:disabled):focus, .badge-blue:not(.disabled):not(:disabled)[href]:hover, .badge-blue:not(.disabled):not(:disabled)[href]:active, .badge-blue:not(.disabled):not(:disabled)[href]:focus {
     background-color: #7585d5;
     color: #FFF; }
 
 .btn-violet, .badge-violet {
   background-color: #ce4dcd;
   color: #FFF; }
-  .btn-violet:hover, .btn-violet:active, .btn-violet:focus, .btn-violet[href]:hover, .btn-violet[href]:active, .btn-violet[href]:focus, .badge-violet:hover, .badge-violet:active, .badge-violet:focus, .badge-violet[href]:hover, .badge-violet[href]:active, .badge-violet[href]:focus {
+  .btn-violet:hover, .btn-violet:active, .btn-violet:focus, .btn-violet[href]:hover, .btn-violet[href]:active, .btn-violet[href]:focus, .btn-violet:not(.disabled):not(:disabled):hover, .btn-violet:not(.disabled):not(:disabled):active, .btn-violet:not(.disabled):not(:disabled):focus, .btn-violet:not(.disabled):not(:disabled)[href]:hover, .btn-violet:not(.disabled):not(:disabled)[href]:active, .btn-violet:not(.disabled):not(:disabled)[href]:focus, .badge-violet:hover, .badge-violet:active, .badge-violet:focus, .badge-violet[href]:hover, .badge-violet[href]:active, .badge-violet[href]:focus, .badge-violet:not(.disabled):not(:disabled):hover, .badge-violet:not(.disabled):not(:disabled):active, .badge-violet:not(.disabled):not(:disabled):focus, .badge-violet:not(.disabled):not(:disabled)[href]:hover, .badge-violet:not(.disabled):not(:disabled)[href]:active, .badge-violet:not(.disabled):not(:disabled)[href]:focus {
     background-color: #d975d8;
     color: #FFF; }
 
 .btn-purple, .badge-purple {
   background-color: #7951c0;
   color: #FFF; }
-  .btn-purple:hover, .btn-purple:active, .btn-purple:focus, .btn-purple[href]:hover, .btn-purple[href]:active, .btn-purple[href]:focus, .badge-purple:hover, .badge-purple:active, .badge-purple:focus, .badge-purple[href]:hover, .badge-purple[href]:active, .badge-purple[href]:focus {
+  .btn-purple:hover, .btn-purple:active, .btn-purple:focus, .btn-purple[href]:hover, .btn-purple[href]:active, .btn-purple[href]:focus, .btn-purple:not(.disabled):not(:disabled):hover, .btn-purple:not(.disabled):not(:disabled):active, .btn-purple:not(.disabled):not(:disabled):focus, .btn-purple:not(.disabled):not(:disabled)[href]:hover, .btn-purple:not(.disabled):not(:disabled)[href]:active, .btn-purple:not(.disabled):not(:disabled)[href]:focus, .badge-purple:hover, .badge-purple:active, .badge-purple:focus, .badge-purple[href]:hover, .badge-purple[href]:active, .badge-purple[href]:focus, .badge-purple:not(.disabled):not(:disabled):hover, .badge-purple:not(.disabled):not(:disabled):active, .badge-purple:not(.disabled):not(:disabled):focus, .badge-purple:not(.disabled):not(:disabled)[href]:hover, .badge-purple:not(.disabled):not(:disabled)[href]:active, .badge-purple:not(.disabled):not(:disabled)[href]:focus {
     background-color: #9676ce;
     color: #FFF; }
 
 .btn-red, .badge-red {
   background-color: #e33d22;
   color: #FFF; }
-  .btn-red:hover, .btn-red:active, .btn-red:focus, .btn-red[href]:hover, .btn-red[href]:active, .btn-red[href]:focus, .badge-red:hover, .badge-red:active, .badge-red:focus, .badge-red[href]:hover, .badge-red[href]:active, .badge-red[href]:focus {
+  .btn-red:hover, .btn-red:active, .btn-red:focus, .btn-red[href]:hover, .btn-red[href]:active, .btn-red[href]:focus, .btn-red:not(.disabled):not(:disabled):hover, .btn-red:not(.disabled):not(:disabled):active, .btn-red:not(.disabled):not(:disabled):focus, .btn-red:not(.disabled):not(:disabled)[href]:hover, .btn-red:not(.disabled):not(:disabled)[href]:active, .btn-red:not(.disabled):not(:disabled)[href]:focus, .badge-red:hover, .badge-red:active, .badge-red:focus, .badge-red[href]:hover, .badge-red[href]:active, .badge-red[href]:focus, .badge-red:not(.disabled):not(:disabled):hover, .badge-red:not(.disabled):not(:disabled):active, .badge-red:not(.disabled):not(:disabled):focus, .badge-red:not(.disabled):not(:disabled)[href]:hover, .badge-red:not(.disabled):not(:disabled)[href]:active, .badge-red:not(.disabled):not(:disabled)[href]:focus {
     background-color: #e9654f;
     color: #FFF; }
 
 .btn-orange, .badge-orange {
   background-color: #eb790a;
   color: #FFF; }
-  .btn-orange:hover, .btn-orange:active, .btn-orange:focus, .btn-orange[href]:hover, .btn-orange[href]:active, .btn-orange[href]:focus, .badge-orange:hover, .badge-orange:active, .badge-orange:focus, .badge-orange[href]:hover, .badge-orange[href]:active, .badge-orange[href]:focus {
+  .btn-orange:hover, .btn-orange:active, .btn-orange:focus, .btn-orange[href]:hover, .btn-orange[href]:active, .btn-orange[href]:focus, .btn-orange:not(.disabled):not(:disabled):hover, .btn-orange:not(.disabled):not(:disabled):active, .btn-orange:not(.disabled):not(:disabled):focus, .btn-orange:not(.disabled):not(:disabled)[href]:hover, .btn-orange:not(.disabled):not(:disabled)[href]:active, .btn-orange:not(.disabled):not(:disabled)[href]:focus, .badge-orange:hover, .badge-orange:active, .badge-orange:focus, .badge-orange[href]:hover, .badge-orange[href]:active, .badge-orange[href]:focus, .badge-orange:not(.disabled):not(:disabled):hover, .badge-orange:not(.disabled):not(:disabled):active, .badge-orange:not(.disabled):not(:disabled):focus, .badge-orange:not(.disabled):not(:disabled)[href]:hover, .badge-orange:not(.disabled):not(:disabled)[href]:active, .badge-orange:not(.disabled):not(:disabled)[href]:focus {
     background-color: #f69332;
     color: #FFF; }
 
 .btn-green, .badge-green {
   background-color: #75b82d;
   color: #FFF; }
-  .btn-green:hover, .btn-green:active, .btn-green:focus, .btn-green[href]:hover, .btn-green[href]:active, .btn-green[href]:focus, .badge-green:hover, .badge-green:active, .badge-green:focus, .badge-green[href]:hover, .badge-green[href]:active, .badge-green[href]:focus {
+  .btn-green:hover, .btn-green:active, .btn-green:focus, .btn-green[href]:hover, .btn-green[href]:active, .btn-green[href]:focus, .btn-green:not(.disabled):not(:disabled):hover, .btn-green:not(.disabled):not(:disabled):active, .btn-green:not(.disabled):not(:disabled):focus, .btn-green:not(.disabled):not(:disabled)[href]:hover, .btn-green:not(.disabled):not(:disabled)[href]:active, .btn-green:not(.disabled):not(:disabled)[href]:focus, .badge-green:hover, .badge-green:active, .badge-green:focus, .badge-green[href]:hover, .badge-green[href]:active, .badge-green[href]:focus, .badge-green:not(.disabled):not(:disabled):hover, .badge-green:not(.disabled):not(:disabled):active, .badge-green:not(.disabled):not(:disabled):focus, .badge-green:not(.disabled):not(:disabled)[href]:hover, .badge-green:not(.disabled):not(:disabled)[href]:active, .badge-green:not(.disabled):not(:disabled)[href]:focus {
     background-color: #8fd246;
     color: #FFF; }
 
 .btn-skyblue, .badge-skyblue {
   background-color: #42a0f3;
   color: #FFF; }
-  .btn-skyblue:hover, .btn-skyblue:active, .btn-skyblue:focus, .btn-skyblue[href]:hover, .btn-skyblue[href]:active, .btn-skyblue[href]:focus, .badge-skyblue:hover, .badge-skyblue:active, .badge-skyblue:focus, .badge-skyblue[href]:hover, .badge-skyblue[href]:active, .badge-skyblue[href]:focus {
+  .btn-skyblue:hover, .btn-skyblue:active, .btn-skyblue:focus, .btn-skyblue[href]:hover, .btn-skyblue[href]:active, .btn-skyblue[href]:focus, .btn-skyblue:not(.disabled):not(:disabled):hover, .btn-skyblue:not(.disabled):not(:disabled):active, .btn-skyblue:not(.disabled):not(:disabled):focus, .btn-skyblue:not(.disabled):not(:disabled)[href]:hover, .btn-skyblue:not(.disabled):not(:disabled)[href]:active, .btn-skyblue:not(.disabled):not(:disabled)[href]:focus, .badge-skyblue:hover, .badge-skyblue:active, .badge-skyblue:focus, .badge-skyblue[href]:hover, .badge-skyblue[href]:active, .badge-skyblue[href]:focus, .badge-skyblue:not(.disabled):not(:disabled):hover, .badge-skyblue:not(.disabled):not(:disabled):active, .badge-skyblue:not(.disabled):not(:disabled):focus, .badge-skyblue:not(.disabled):not(:disabled)[href]:hover, .badge-skyblue:not(.disabled):not(:disabled)[href]:active, .badge-skyblue:not(.disabled):not(:disabled)[href]:focus {
     background-color: #72b8f6;
     color: #FFF; }
 
 .btn-dark, .badge-dark {
   background-color: #6d6d6d;
   color: #FFF; }
-  .btn-dark:hover, .btn-dark:active, .btn-dark:focus, .btn-dark[href]:hover, .btn-dark[href]:active, .btn-dark[href]:focus, .badge-dark:hover, .badge-dark:active, .badge-dark:focus, .badge-dark[href]:hover, .badge-dark[href]:active, .badge-dark[href]:focus {
+  .btn-dark:hover, .btn-dark:active, .btn-dark:focus, .btn-dark[href]:hover, .btn-dark[href]:active, .btn-dark[href]:focus, .btn-dark:not(.disabled):not(:disabled):hover, .btn-dark:not(.disabled):not(:disabled):active, .btn-dark:not(.disabled):not(:disabled):focus, .btn-dark:not(.disabled):not(:disabled)[href]:hover, .btn-dark:not(.disabled):not(:disabled)[href]:active, .btn-dark:not(.disabled):not(:disabled)[href]:focus, .badge-dark:hover, .badge-dark:active, .badge-dark:focus, .badge-dark[href]:hover, .badge-dark[href]:active, .badge-dark[href]:focus, .badge-dark:not(.disabled):not(:disabled):hover, .badge-dark:not(.disabled):not(:disabled):active, .badge-dark:not(.disabled):not(:disabled):focus, .badge-dark:not(.disabled):not(:disabled)[href]:hover, .badge-dark:not(.disabled):not(:disabled)[href]:active, .badge-dark:not(.disabled):not(:disabled)[href]:focus {
     background-color: #878787;
     color: #FFF; }
 
 .btn-light, .badge-light {
   background-color: #eeeeec;
   color: #111; }
-  .btn-light:hover, .btn-light:active, .btn-light:focus, .btn-light[href]:hover, .btn-light[href]:active, .btn-light[href]:focus, .badge-light:hover, .badge-light:active, .badge-light:focus, .badge-light[href]:hover, .badge-light[href]:active, .badge-light[href]:focus {
+  .btn-light:hover, .btn-light:active, .btn-light:focus, .btn-light[href]:hover, .btn-light[href]:active, .btn-light[href]:focus, .btn-light:not(.disabled):not(:disabled):hover, .btn-light:not(.disabled):not(:disabled):active, .btn-light:not(.disabled):not(:disabled):focus, .btn-light:not(.disabled):not(:disabled)[href]:hover, .btn-light:not(.disabled):not(:disabled)[href]:active, .btn-light:not(.disabled):not(:disabled)[href]:focus, .badge-light:hover, .badge-light:active, .badge-light:focus, .badge-light[href]:hover, .badge-light[href]:active, .badge-light[href]:focus, .badge-light:not(.disabled):not(:disabled):hover, .badge-light:not(.disabled):not(:disabled):active, .badge-light:not(.disabled):not(:disabled):focus, .badge-light:not(.disabled):not(:disabled)[href]:hover, .badge-light:not(.disabled):not(:disabled)[href]:active, .badge-light:not(.disabled):not(:disabled)[href]:focus {
     background-color: white;
     color: #111; }
 
 .btn-turquoise, .badge-turquoise {
   background-color: #46bd9e;
   color: #FFF; }
-  .btn-turquoise:hover, .btn-turquoise:active, .btn-turquoise:focus, .btn-turquoise[href]:hover, .btn-turquoise[href]:active, .btn-turquoise[href]:focus, .badge-turquoise:hover, .badge-turquoise:active, .badge-turquoise:focus, .badge-turquoise[href]:hover, .badge-turquoise[href]:active, .badge-turquoise[href]:focus {
+  .btn-turquoise:hover, .btn-turquoise:active, .btn-turquoise:focus, .btn-turquoise[href]:hover, .btn-turquoise[href]:active, .btn-turquoise[href]:focus, .btn-turquoise:not(.disabled):not(:disabled):hover, .btn-turquoise:not(.disabled):not(:disabled):active, .btn-turquoise:not(.disabled):not(:disabled):focus, .btn-turquoise:not(.disabled):not(:disabled)[href]:hover, .btn-turquoise:not(.disabled):not(:disabled)[href]:active, .btn-turquoise:not(.disabled):not(:disabled)[href]:focus, .badge-turquoise:hover, .badge-turquoise:active, .badge-turquoise:focus, .badge-turquoise[href]:hover, .badge-turquoise[href]:active, .badge-turquoise[href]:focus, .badge-turquoise:not(.disabled):not(:disabled):hover, .badge-turquoise:not(.disabled):not(:disabled):active, .badge-turquoise:not(.disabled):not(:disabled):focus, .badge-turquoise:not(.disabled):not(:disabled)[href]:hover, .badge-turquoise:not(.disabled):not(:disabled)[href]:active, .badge-turquoise:not(.disabled):not(:disabled)[href]:focus {
     background-color: #6ccab2;
     color: #FFF; }
 
 .btn-primary, .badge-primary {
   background-color: #7951c0;
   color: #FFF; }
-  .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary[href]:hover, .btn-primary[href]:active, .btn-primary[href]:focus, .badge-primary:hover, .badge-primary:active, .badge-primary:focus, .badge-primary[href]:hover, .badge-primary[href]:active, .badge-primary[href]:focus {
+  .btn-primary:hover, .btn-primary:active, .btn-primary:focus, .btn-primary[href]:hover, .btn-primary[href]:active, .btn-primary[href]:focus, .btn-primary:not(.disabled):not(:disabled):hover, .btn-primary:not(.disabled):not(:disabled):active, .btn-primary:not(.disabled):not(:disabled):focus, .btn-primary:not(.disabled):not(:disabled)[href]:hover, .btn-primary:not(.disabled):not(:disabled)[href]:active, .btn-primary:not(.disabled):not(:disabled)[href]:focus, .badge-primary:hover, .badge-primary:active, .badge-primary:focus, .badge-primary[href]:hover, .badge-primary[href]:active, .badge-primary[href]:focus, .badge-primary:not(.disabled):not(:disabled):hover, .badge-primary:not(.disabled):not(:disabled):active, .badge-primary:not(.disabled):not(:disabled):focus, .badge-primary:not(.disabled):not(:disabled)[href]:hover, .badge-primary:not(.disabled):not(:disabled)[href]:active, .badge-primary:not(.disabled):not(:disabled)[href]:focus {
     background-color: #9676ce;
     color: #FFF; }
 
 .btn-secondary, .badge-secondary {
   background-color: #4e63c9;
   color: #FFF; }
-  .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus, .btn-secondary[href]:hover, .btn-secondary[href]:active, .btn-secondary[href]:focus, .badge-secondary:hover, .badge-secondary:active, .badge-secondary:focus, .badge-secondary[href]:hover, .badge-secondary[href]:active, .badge-secondary[href]:focus {
+  .btn-secondary:hover, .btn-secondary:active, .btn-secondary:focus, .btn-secondary[href]:hover, .btn-secondary[href]:active, .btn-secondary[href]:focus, .btn-secondary:not(.disabled):not(:disabled):hover, .btn-secondary:not(.disabled):not(:disabled):active, .btn-secondary:not(.disabled):not(:disabled):focus, .btn-secondary:not(.disabled):not(:disabled)[href]:hover, .btn-secondary:not(.disabled):not(:disabled)[href]:active, .btn-secondary:not(.disabled):not(:disabled)[href]:focus, .badge-secondary:hover, .badge-secondary:active, .badge-secondary:focus, .badge-secondary[href]:hover, .badge-secondary[href]:active, .badge-secondary[href]:focus, .badge-secondary:not(.disabled):not(:disabled):hover, .badge-secondary:not(.disabled):not(:disabled):active, .badge-secondary:not(.disabled):not(:disabled):focus, .badge-secondary:not(.disabled):not(:disabled)[href]:hover, .badge-secondary:not(.disabled):not(:disabled)[href]:active, .badge-secondary:not(.disabled):not(:disabled)[href]:focus {
     background-color: #7585d5;
     color: #FFF; }
 
 .btn-warning, .badge-warning {
   background-color: #eb790a;
   color: #FFF; }
-  .btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning[href]:hover, .btn-warning[href]:active, .btn-warning[href]:focus, .badge-warning:hover, .badge-warning:active, .badge-warning:focus, .badge-warning[href]:hover, .badge-warning[href]:active, .badge-warning[href]:focus {
+  .btn-warning:hover, .btn-warning:active, .btn-warning:focus, .btn-warning[href]:hover, .btn-warning[href]:active, .btn-warning[href]:focus, .btn-warning:not(.disabled):not(:disabled):hover, .btn-warning:not(.disabled):not(:disabled):active, .btn-warning:not(.disabled):not(:disabled):focus, .btn-warning:not(.disabled):not(:disabled)[href]:hover, .btn-warning:not(.disabled):not(:disabled)[href]:active, .btn-warning:not(.disabled):not(:disabled)[href]:focus, .badge-warning:hover, .badge-warning:active, .badge-warning:focus, .badge-warning[href]:hover, .badge-warning[href]:active, .badge-warning[href]:focus, .badge-warning:not(.disabled):not(:disabled):hover, .badge-warning:not(.disabled):not(:disabled):active, .badge-warning:not(.disabled):not(:disabled):focus, .badge-warning:not(.disabled):not(:disabled)[href]:hover, .badge-warning:not(.disabled):not(:disabled)[href]:active, .badge-warning:not(.disabled):not(:disabled)[href]:focus {
     background-color: #f69332;
     color: #FFF; }
 
 .btn-danger, .badge-danger {
   background-color: #e33d22;
   color: #FFF; }
-  .btn-danger:hover, .btn-danger:active, .btn-danger:focus, .btn-danger[href]:hover, .btn-danger[href]:active, .btn-danger[href]:focus, .badge-danger:hover, .badge-danger:active, .badge-danger:focus, .badge-danger[href]:hover, .badge-danger[href]:active, .badge-danger[href]:focus {
+  .btn-danger:hover, .btn-danger:active, .btn-danger:focus, .btn-danger[href]:hover, .btn-danger[href]:active, .btn-danger[href]:focus, .btn-danger:not(.disabled):not(:disabled):hover, .btn-danger:not(.disabled):not(:disabled):active, .btn-danger:not(.disabled):not(:disabled):focus, .btn-danger:not(.disabled):not(:disabled)[href]:hover, .btn-danger:not(.disabled):not(:disabled)[href]:active, .btn-danger:not(.disabled):not(:disabled)[href]:focus, .badge-danger:hover, .badge-danger:active, .badge-danger:focus, .badge-danger[href]:hover, .badge-danger[href]:active, .badge-danger[href]:focus, .badge-danger:not(.disabled):not(:disabled):hover, .badge-danger:not(.disabled):not(:disabled):active, .badge-danger:not(.disabled):not(:disabled):focus, .badge-danger:not(.disabled):not(:disabled)[href]:hover, .badge-danger:not(.disabled):not(:disabled)[href]:active, .badge-danger:not(.disabled):not(:disabled)[href]:focus {
     background-color: #e9654f;
     color: #FFF; }
 
 .btn-info, .badge-info {
   background-color: #42a0f3;
   color: #FFF; }
-  .btn-info:hover, .btn-info:active, .btn-info:focus, .btn-info[href]:hover, .btn-info[href]:active, .btn-info[href]:focus, .badge-info:hover, .badge-info:active, .badge-info:focus, .badge-info[href]:hover, .badge-info[href]:active, .badge-info[href]:focus {
+  .btn-info:hover, .btn-info:active, .btn-info:focus, .btn-info[href]:hover, .btn-info[href]:active, .btn-info[href]:focus, .btn-info:not(.disabled):not(:disabled):hover, .btn-info:not(.disabled):not(:disabled):active, .btn-info:not(.disabled):not(:disabled):focus, .btn-info:not(.disabled):not(:disabled)[href]:hover, .btn-info:not(.disabled):not(:disabled)[href]:active, .btn-info:not(.disabled):not(:disabled)[href]:focus, .badge-info:hover, .badge-info:active, .badge-info:focus, .badge-info[href]:hover, .badge-info[href]:active, .badge-info[href]:focus, .badge-info:not(.disabled):not(:disabled):hover, .badge-info:not(.disabled):not(:disabled):active, .badge-info:not(.disabled):not(:disabled):focus, .badge-info:not(.disabled):not(:disabled)[href]:hover, .badge-info:not(.disabled):not(:disabled)[href]:active, .badge-info:not(.disabled):not(:disabled)[href]:focus {
     background-color: #72b8f6;
     color: #FFF; }
 
 .btn-success, .badge-success {
   background-color: #75b82d;
   color: #FFF; }
-  .btn-success:hover, .btn-success:active, .btn-success:focus, .btn-success[href]:hover, .btn-success[href]:active, .btn-success[href]:focus, .badge-success:hover, .badge-success:active, .badge-success:focus, .badge-success[href]:hover, .badge-success[href]:active, .badge-success[href]:focus {
+  .btn-success:hover, .btn-success:active, .btn-success:focus, .btn-success[href]:hover, .btn-success[href]:active, .btn-success[href]:focus, .btn-success:not(.disabled):not(:disabled):hover, .btn-success:not(.disabled):not(:disabled):active, .btn-success:not(.disabled):not(:disabled):focus, .btn-success:not(.disabled):not(:disabled)[href]:hover, .btn-success:not(.disabled):not(:disabled)[href]:active, .btn-success:not(.disabled):not(:disabled)[href]:focus, .badge-success:hover, .badge-success:active, .badge-success:focus, .badge-success[href]:hover, .badge-success[href]:active, .badge-success[href]:focus, .badge-success:not(.disabled):not(:disabled):hover, .badge-success:not(.disabled):not(:disabled):active, .badge-success:not(.disabled):not(:disabled):focus, .badge-success:not(.disabled):not(:disabled)[href]:hover, .badge-success:not(.disabled):not(:disabled)[href]:active, .badge-success:not(.disabled):not(:disabled)[href]:focus {
     background-color: #8fd246;
     color: #FFF; }
 
@@ -192,35 +192,35 @@ a, a:hover, a:active {
 .btn-facebook {
   background-color: #3B5998;
   color: #FFF; }
-  .btn-facebook:hover, .btn-facebook:active, .btn-facebook:focus, .btn-facebook[href]:hover, .btn-facebook[href]:active, .btn-facebook[href]:focus {
+  .btn-facebook:hover, .btn-facebook:active, .btn-facebook:focus, .btn-facebook[href]:hover, .btn-facebook[href]:active, .btn-facebook[href]:focus, .btn-facebook:not(.disabled):not(:disabled):hover, .btn-facebook:not(.disabled):not(:disabled):active, .btn-facebook:not(.disabled):not(:disabled):focus, .btn-facebook:not(.disabled):not(:disabled)[href]:hover, .btn-facebook:not(.disabled):not(:disabled)[href]:active, .btn-facebook:not(.disabled):not(:disabled)[href]:focus {
     background-color: #4c70ba;
     color: #FFF; }
 
 .btn-twitter {
   background-color: #55ACEE;
   color: #FFF; }
-  .btn-twitter:hover, .btn-twitter:active, .btn-twitter:focus, .btn-twitter[href]:hover, .btn-twitter[href]:active, .btn-twitter[href]:focus {
+  .btn-twitter:hover, .btn-twitter:active, .btn-twitter:focus, .btn-twitter[href]:hover, .btn-twitter[href]:active, .btn-twitter[href]:focus, .btn-twitter:not(.disabled):not(:disabled):hover, .btn-twitter:not(.disabled):not(:disabled):active, .btn-twitter:not(.disabled):not(:disabled):focus, .btn-twitter:not(.disabled):not(:disabled)[href]:hover, .btn-twitter:not(.disabled):not(:disabled)[href]:active, .btn-twitter:not(.disabled):not(:disabled)[href]:focus {
     background-color: #83c3f3;
     color: #FFF; }
 
 .btn-googleplus {
   background-color: #d34836;
   color: #FFF; }
-  .btn-googleplus:hover, .btn-googleplus:active, .btn-googleplus:focus, .btn-googleplus[href]:hover, .btn-googleplus[href]:active, .btn-googleplus[href]:focus {
+  .btn-googleplus:hover, .btn-googleplus:active, .btn-googleplus:focus, .btn-googleplus[href]:hover, .btn-googleplus[href]:active, .btn-googleplus[href]:focus, .btn-googleplus:not(.disabled):not(:disabled):hover, .btn-googleplus:not(.disabled):not(:disabled):active, .btn-googleplus:not(.disabled):not(:disabled):focus, .btn-googleplus:not(.disabled):not(:disabled)[href]:hover, .btn-googleplus:not(.disabled):not(:disabled)[href]:active, .btn-googleplus:not(.disabled):not(:disabled)[href]:focus {
     background-color: #dc6e60;
     color: #FFF; }
 
 .btn-diaspora {
   background-color: #313739;
   color: #FFF; }
-  .btn-diaspora:hover, .btn-diaspora:active, .btn-diaspora:focus, .btn-diaspora[href]:hover, .btn-diaspora[href]:active, .btn-diaspora[href]:focus {
+  .btn-diaspora:hover, .btn-diaspora:active, .btn-diaspora:focus, .btn-diaspora[href]:hover, .btn-diaspora[href]:active, .btn-diaspora[href]:focus, .btn-diaspora:not(.disabled):not(:disabled):hover, .btn-diaspora:not(.disabled):not(:disabled):active, .btn-diaspora:not(.disabled):not(:disabled):focus, .btn-diaspora:not(.disabled):not(:disabled)[href]:hover, .btn-diaspora:not(.disabled):not(:disabled)[href]:active, .btn-diaspora:not(.disabled):not(:disabled)[href]:focus {
     background-color: #495154;
     color: #FFF; }
 
 .btn-mastodon {
   background-color: #282c37;
   color: #FFF; }
-  .btn-mastodon:hover, .btn-mastodon:active, .btn-mastodon:focus, .btn-mastodon[href]:hover, .btn-mastodon[href]:active, .btn-mastodon[href]:focus {
+  .btn-mastodon:hover, .btn-mastodon:active, .btn-mastodon:focus, .btn-mastodon[href]:hover, .btn-mastodon[href]:active, .btn-mastodon[href]:focus, .btn-mastodon:not(.disabled):not(:disabled):hover, .btn-mastodon:not(.disabled):not(:disabled):active, .btn-mastodon:not(.disabled):not(:disabled):focus, .btn-mastodon:not(.disabled):not(:disabled)[href]:hover, .btn-mastodon:not(.disabled):not(:disabled)[href]:active, .btn-mastodon:not(.disabled):not(:disabled)[href]:focus {
     background-color: #3d4455;
     color: #FFF; }
 
