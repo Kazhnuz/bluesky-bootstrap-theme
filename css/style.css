@@ -184,7 +184,7 @@ a.list-group-item:hover {
 
 .btn:focus, .btn-primary:focus, .btn-secondary:focus, .btn-danger:focus, .btn-warning:focus, .btn-success:focus, .btn-info:focus, .btn-dark:focus, .btn-light:focus {
   position: relative;
-  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px #75507b;
+  box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2), 0px 0px 0px 2px rgba(0, 0, 0, 0.3);
   top: 1px;
   outline: none; }
 
