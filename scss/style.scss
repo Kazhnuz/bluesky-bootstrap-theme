@@ -13,8 +13,14 @@ $border-size: 1px;
   border: $border-size solid rgba(0, 0, 0, 0.3)
 }
 
-@mixin border-radius {
+@mixin border-radius() {
   border-radius: $border-radius $border-radius $border-radius $border-radius;
+}
+
+@mixin li-no-margin() {
+  li {
+    margin: 0;
+  }
 }
 
 #wrapper {
@@ -60,6 +66,7 @@ header h1 {
   ul {
     padding-bottom:0;
   }
+  @include li-no-margin();
 }
 
 .dropdown-menu {
@@ -81,6 +88,7 @@ ul.social {
   margin:auto;
   text-align:center;
   li {
+    margin:0;
     list-style: none;
     display: inline;
     a {
@@ -279,9 +287,7 @@ a.list-group-item:hover {
   border: 0;
   background-color:#eeeeec;
   margin-bottom:1.2em;
-  li {
-    margin:0;
-  }
+  @include li-no-margin();
 }
 
 /* ------------------ PARTAGE RESEAUX SOCIAUX ------------------- */

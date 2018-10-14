@@ -38,6 +38,8 @@ header h1 {
   border-right: 0; }
   .navbar ul {
     padding-bottom: 0; }
+  .navbar li {
+    margin: 0; }
 
 .dropdown-menu {
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
@@ -53,6 +55,7 @@ ul.social {
   margin: auto;
   text-align: center; }
   ul.social li {
+    margin: 0;
     list-style: none;
     display: inline; }
     ul.social li a {
