@@ -110,24 +110,20 @@ h1.card-title, h2.card-title, h3.card-title, h4.card-title, h5.card-title, h6.ca
 .card-meta {
   padding: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
-
-.card-meta.media {
-  -ms-flex-align: center !important;
-  align-items: center !important; }
-
-.card-meta .media-left .media-object {
-  height: 64px;
-  width: 64px;
-  border-radius: 10px;
-  margin-right: 1em; }
-
-.card-meta author {
-  display: block;
-  font-weight: 600; }
-
-.card-meta time {
-  display: block;
-  font-style: italic; }
+  .card-meta.media {
+    -ms-flex-align: center !important;
+    align-items: center !important; }
+  .card-meta .media-left .media-object {
+    height: 64px;
+    width: 64px;
+    border-radius: 10px;
+    margin-right: 1em; }
+  .card-meta author {
+    display: block;
+    font-weight: 600; }
+  .card-meta time {
+    display: block;
+    font-style: italic; }
 
 /* lists */
 .list-group-item {
