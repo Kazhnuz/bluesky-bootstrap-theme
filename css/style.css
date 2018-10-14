@@ -52,23 +52,20 @@ ul.social {
   padding-bottom: 1em;
   margin: auto;
   text-align: center; }
-
-li.social-li {
-  list-style: none;
-  display: inline; }
-
-a.social-link {
-  color: #FFFFFF;
-  background-color: #000000;
-  padding: 0.3em;
-  padding-left: 0.36em;
-  padding-right: 0.36em;
-  vertical-align: middle;
-  border-radius: 100%; }
-
-a.social-link:hover {
-  color: #000000;
-  background-color: #FFFFFF; }
+  ul.social li {
+    list-style: none;
+    display: inline; }
+    ul.social li a {
+      color: #FFFFFF;
+      background-color: #000000;
+      padding: 0.3em;
+      padding-left: 0.36em;
+      padding-right: 0.36em;
+      vertical-align: middle;
+      border-radius: 100%; }
+      ul.social li a:hover {
+        color: #000;
+        background-color: #FFF; }
 
 /* ------------------ CARDS ------------------- */
 .card {
