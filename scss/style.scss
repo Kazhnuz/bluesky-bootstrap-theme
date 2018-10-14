@@ -13,6 +13,10 @@ $border-size: 1px;
   border: $border-size solid rgba(0, 0, 0, 0.3)
 }
 
+@mixin border-radius {
+  border-radius: $border-radius $border-radius $border-radius $border-radius;
+}
+
 #wrapper {
   background: #64b5f6 url('../img/background.png') center bottom repeat-x;
 }
@@ -98,6 +102,7 @@ a.social-link:hover {
 /* ------------------ CARDS ------------------- */
 
 .card {
+  @include border-radius();
 	box-shadow: $large-shadow;
   border: none;
   margin-bottom:1.2em;
@@ -110,13 +115,24 @@ a.social-link:hover {
 /* header and titles */
 
 .card-header {
-	border-top-left-radius:3px;
-	border-top-right-radius:3px;
   @include borders();
   font-size:1.1em;
   box-shadow: $inset-relief;
 	text-shadow: 0px 1px 1px rgba(0,0,0,0.3);
   font-weight:600;
+  border-radius: 0;
+  
+  &:first-child {
+    @include border-radius();
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  
+  &:last-child {
+    @include border-radius();
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
 }
 
 .card h1,.card h2,.card h3,.card h4,.card h5,.card h6,.card h7,.card h8,.card h9,.card h10  {
@@ -181,6 +197,7 @@ a.list-group-item:hover {
 
 .btn {
 	@include borders();
+	@include border-radius();
 	box-shadow: $large-shadow, $inset-shadow;
 	text-shadow: 0px -1px 0px rgba(0,0,0,0.3);
 }
@@ -205,6 +222,15 @@ a.list-group-item:hover {
 
 .btn-group .btn {
 	box-shadow: $inset-shadow;
+	@include border-radius();
+	&:not(:first-child) {
+	  border-top-left-radius: 0;
+	  border-bottom-left-radius: 0;
+	}
+	&:not(:last-child) {
+	  border-top-right-radius: 0;
+	  border-bottom-right-radius: 0;
+	}
 }
 
 .btn-group .btn:hover {
@@ -232,6 +258,7 @@ a.list-group-item:hover {
 
 .alert {
   @include borders();
+  @include border-radius();
   color:rgba(0, 0, 0, 0.7);
   box-shadow: $large-shadow;
 }
@@ -244,6 +271,7 @@ a.list-group-item:hover {
 /* ------------------ BREADCRUMB ------------------- */
 
 .breadcrumb {
+  @include border-radius();
 	box-shadow: $large-shadow, $inset-shadow;
   border: 0;
   background-color:#eeeeec;
@@ -295,8 +323,8 @@ a.list-group-item:hover {
 }
 
 .card-preview {
-  width:100%;
-  
+  @include border-radius();
+  width:100%;  
   margin:auto;
   box-shadow: $large-shadow, $inset-shadow;
 }

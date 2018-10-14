@@ -32,7 +32,7 @@ header h1 {
 
 .navbar {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   border-left: 0;
   border-right: 0; }
 
@@ -69,6 +69,7 @@ a.social-link:hover {
 
 /* ------------------ CARDS ------------------- */
 .card {
+  border-radius: 3px 3px 3px 3px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3);
   border: none;
   margin-bottom: 1.2em; }
@@ -78,13 +79,20 @@ a.social-link:hover {
 
 /* header and titles */
 .card-header {
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
   font-size: 1.1em;
   box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.1);
   text-shadow: 0px 1px 1px rgba(0, 0, 0, 0.3);
-  font-weight: 600; }
+  font-weight: 600;
+  border-radius: 0; }
+  .card-header:first-child {
+    border-radius: 3px 3px 3px 3px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0; }
+  .card-header:last-child {
+    border-radius: 3px 3px 3px 3px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0; }
 
 .card h1, .card h2, .card h3, .card h4, .card h5, .card h6, .card h7, .card h8, .card h9, .card h10 {
   color: #333;
@@ -101,7 +109,7 @@ h1.card-title, h2.card-title, h3.card-title, h4.card-title, h5.card-title, h6.ca
 /* meta */
 .card-meta {
   padding: 1em;
-  border-bottom: 2px solid rgba(0, 0, 0, 0.2); }
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2); }
 
 .card-meta.media {
   -ms-flex-align: center !important;
@@ -134,7 +142,8 @@ a.list-group-item:hover {
 
 /* ------------------ BUTTONS ------------------- */
 .btn {
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px 3px 3px 3px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.3); }
 
@@ -142,19 +151,26 @@ a.list-group-item:hover {
   position: relative;
   box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   top: 1px;
-  border: 2px solid rgba(0, 0, 0, 0.3); }
+  border: 1px solid rgba(0, 0, 0, 0.3); }
 
 .btn:active {
   position: relative;
   box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2);
   top: 2px;
-  border: 2px solid rgba(0, 0, 0, 0.3); }
+  border: 1px solid rgba(0, 0, 0, 0.3); }
 
 .btn-group {
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); }
 
 .btn-group .btn {
-  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
+  box-shadow: inset 0px -2px 0px rgba(0, 0, 0, 0.2);
+  border-radius: 3px 3px 3px 3px; }
+  .btn-group .btn:not(:first-child) {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0; }
+  .btn-group .btn:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0; }
 
 .btn-group .btn:hover {
   position: relative;
@@ -166,7 +182,7 @@ a.list-group-item:hover {
   position: relative;
   box-shadow: inset 0px 2px 0px rgba(0, 0, 0, 0.2) !important;
   top: 2px;
-  border: 2px solid rgba(0, 0, 0, 0.3); }
+  border: 1px solid rgba(0, 0, 0, 0.3); }
 
 .btn:focus, .btn-primary:focus, .btn-secondary:focus, .btn-danger:focus, .btn-warning:focus, .btn-success:focus, .btn-info:focus, .btn-dark:focus, .btn-light:focus {
   position: relative;
@@ -176,7 +192,8 @@ a.list-group-item:hover {
 
 /* ------------------ ALERTS ------------------- */
 .alert {
-  border: 2px solid rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  border-radius: 3px 3px 3px 3px;
   color: rgba(0, 0, 0, 0.7);
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3); }
 
@@ -186,6 +203,7 @@ a.list-group-item:hover {
 
 /* ------------------ BREADCRUMB ------------------- */
 .breadcrumb {
+  border-radius: 3px 3px 3px 3px;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2);
   border: 0;
   background-color: #eeeeec;
@@ -218,6 +236,7 @@ a.list-group-item:hover {
     width: 25%; } }
 
 .card-preview {
+  border-radius: 3px 3px 3px 3px;
   width: 100%;
   margin: auto;
   box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.3), inset 0px -2px 0px rgba(0, 0, 0, 0.2); }
