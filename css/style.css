@@ -372,7 +372,7 @@ a, a:hover, a:active {
   color: #FFF; }
 
 .card-dark > .card-header {
-  background-color: #6d6d6d;
+  background-color: #2D2D2D;
   color: #FFF; }
 
 .card-light > .card-header {
@@ -470,10 +470,10 @@ a, a:hover, a:active {
     color: #FFF; }
 
 .btn-dark {
-  background-color: #6d6d6d;
+  background-color: #2D2D2D;
   color: #FFF; }
   .btn-dark:hover, .btn-dark:active, .btn-dark:focus, .btn-dark:not(.disabled):not(:disabled):hover, .btn-dark:not(.disabled):not(:disabled):active, .btn-dark:not(.disabled):not(:disabled):focus {
-    background-color: #878787;
+    background-color: #474747;
     color: #FFF; }
 
 .btn-light {
@@ -640,10 +640,10 @@ a, a:hover, a:active {
     color: #FFF; }
 
 .badge-dark {
-  background-color: #6d6d6d;
+  background-color: #2D2D2D;
   color: #FFF; }
   .badge-dark:hover, .badge-dark:active, .badge-dark:focus, a:hover > .badge-dark, a:active > .badge-dark, a:focus > .badge-dark, .badge-dark:not(.disabled):not(:disabled):hover, .badge-dark:not(.disabled):not(:disabled):active, .badge-dark:not(.disabled):not(:disabled):focus, a:hover > .badge-dark:not(.disabled):not(:disabled), a:active > .badge-dark:not(.disabled):not(:disabled), a:focus > .badge-dark:not(.disabled):not(:disabled) {
-    background-color: #878787;
+    background-color: #474747;
     color: #FFF; }
 
 .badge-light {
@@ -753,7 +753,7 @@ a, a:hover, a:active {
   color: #FFF; }
 
 .bg-dark {
-  background-color: #6d6d6d !important;
+  background-color: #2D2D2D !important;
   color: #FFF; }
 
 .bg-light {
@@ -830,7 +830,7 @@ a, a:hover, a:active {
   color: black; }
 
 .alert-dark {
-  background-color: #c6c6c6;
+  background-color: #868686;
   color: black; }
 
 .alert-light {
@@ -900,7 +900,7 @@ a, a:hover, a:active {
   color: #42a0f3; }
 
 .text-dark {
-  color: #6d6d6d; }
+  color: #2D2D2D; }
 
 .text-light {
   color: #eeeeec; }
