@@ -67,6 +67,9 @@ a, a:hover, a:active {
   &-dark { @include card-color($color-dark, #FFF); }
   &-light { @include card-color($color-light, #111); }
   &-turquoise { @include card-color($color-turquoise, #FFF); }
+  &-yellow { @include card-color($color-yellow, #FFF); }
+  &-brown { @include card-color($color-brown, #FFF); }
+  &-grey { @include card-color($color-grey, #FFF); }
   
   &-primary { @include card-color($color-primary, #FFF); }
   &-secondary { @include card-color($color-secondary, #FFF); }
@@ -89,6 +92,9 @@ a, a:hover, a:active {
   &-dark { @include button-color($color-dark, #FFF); }
   &-light { @include button-color($color-light, #111); }
   &-turquoise { @include button-color($color-turquoise, #FFF); }
+  &-yellow { @include button-color($color-yellow, #FFF); }
+  &-brown { @include button-color($color-brown, #FFF); }
+  &-grey { @include button-color($color-grey, #FFF); }
   
   &-primary { @include button-color($color-primary, #FFF); }
   &-secondary { @include button-color($color-secondary, #FFF); }
@@ -121,6 +127,9 @@ a, a:hover, a:active {
   &-dark { @include badge-color($color-dark, #FFF); }
   &-light { @include badge-color($color-light, #111); }
   &-turquoise { @include badge-color($color-turquoise, #FFF); }
+  &-yellow { @include badge-color($color-yellow, #FFF); }
+  &-brown { @include badge-color($color-brown, #FFF); }
+  &-grey { @include badge-color($color-grey, #FFF); }
   
   &-primary { @include badge-color($color-primary, #FFF); }
   &-secondary { @include badge-color($color-secondary, #FFF); }
@@ -143,6 +152,9 @@ a, a:hover, a:active {
   &-dark { @include background-color($color-dark, #FFF); }
   &-light { @include background-color($color-light, #111); }
   &-turquoise { @include background-color($color-turquoise, #FFF); }
+  &-yellow { @include background-color($color-yellow, #FFF); }
+  &-brown { @include background-color($color-brown, #FFF); }
+  &-grey { @include background-color($color-grey, #FFF); }  
   
   &-primary { @include background-color($color-primary, #FFF); }
   &-secondary { @include background-color($color-secondary, #FFF); }
@@ -165,6 +177,9 @@ a, a:hover, a:active {
   &-dark { @include alert-color($color-dark); }
   &-light { @include alert-color($color-light); }
   &-turquoise { @include alert-color($color-turquoise); }
+  &-yellow { @include alert-color($color-yellow); }
+  &-brown { @include alert-color($color-brown); }
+  &-grey { @include alert-color($color-grey); }  
   
   &-primary { @include alert-color($color-primary); }
   &-secondary { @include alert-color($color-secondary); }
@@ -187,6 +202,9 @@ a, a:hover, a:active {
   &-dark { @include text-color($color-dark); }
   &-light { @include text-color($color-light); }
   &-turquoise { @include text-color($color-turquoise); }
+  &-yellow { @include text-color($color-yellow); }
+  &-brown { @include text-color($color-brown); }
+  &-grey { @include text-color($color-grey); }  
   
   &-primary { @include text-color($color-primary); }
   &-secondary { @include text-color($color-secondary); }
