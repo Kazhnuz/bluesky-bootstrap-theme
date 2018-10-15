@@ -196,6 +196,12 @@ a, a:hover, a:active {
   &-success { @include text-color($color-success); }
 }
 
+/* Clear-Typography overrides */
+
 mark {
   background-color: lighten($color-mark, 30%)
+}
+
+blockquote, pre {
+  border-color: $color-primary;
 }

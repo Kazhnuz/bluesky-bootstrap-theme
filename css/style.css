@@ -848,5 +848,9 @@ a, a:hover, a:active {
 .text-success {
   color: #75b82d; }
 
+/* Clear-Typography overrides */
 mark {
   background-color: #fac694; }
+
+blockquote, pre {
+  border-color: #7951c0; }
