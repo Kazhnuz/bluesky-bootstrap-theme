@@ -1,5 +1,11 @@
 /* ------------------ GLOBAL STYLE ------------------- */
 
+@mixin li-no-margin() {
+  li {
+    margin: 0;
+  }
+}
+
 .no-pills {
 	list-style:none;
 }

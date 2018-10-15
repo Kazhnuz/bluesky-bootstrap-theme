@@ -24,12 +24,6 @@ $color-selection: $color-blue;
   border-radius: $border-radius $border-radius $border-radius $border-radius;
 }
 
-@mixin li-no-margin() {
-  li {
-    margin: 0;
-  }
-}
-
 #wrapper {
   background: #64b5f6 url('../img/background.png') center bottom repeat-x;
 }
