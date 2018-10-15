@@ -1,7 +1,8 @@
-/* ------------------ GLOBAL STYLE ------------------- */
+/* ------------------ CUSTOM STYLE ------------------- */
 #wrapper {
   background: #64b5f6 url("../img/background.png") center bottom repeat-x; }
 
+/* ------------------ GLOBAL STYLE ------------------- */
 .no-pills {
   list-style: none; }
 
