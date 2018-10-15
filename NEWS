@@ -2,6 +2,46 @@
 
 ## BlueSky 3.x
 
+### BlueSky 3.1
+
+- Use Clear-Typography 1.1
+
+- Port everything to SCSS !
+
+  - Transform the palette in one of the style submodules
+  
+  - Use submodules to make the scss easier to modify
+  
+  - Use SCSS variables to handle palette and modifiable elements
+  
+- New Features
+
+  - Background Colors fully supported (.bg-<color_name>)
+  
+  - Text color (.text-<color_name>)
+  
+  - Customizable link color (via SCSS variable)
+  
+  - Customizable selection color (via SCSS variable)
+  
+  - Three new colors in palette : yellow, brown, grey
+
+- Styles changes
+
+  - Borders and shadow streamlined
+  
+  - Slight color changes due to the new way of working of the palette
+  
+  - Inset shadow in navbar removed
+  
+  - Darker "$color-dark" color
+
+- Bugfixes
+
+  - Badge hover/focus styling fixed
+  
+  - Every fixes and improvement coming from Clear-Typography 1.1
+
 ### BlueSky 3.0
 
 - Removed Comic Neue font
