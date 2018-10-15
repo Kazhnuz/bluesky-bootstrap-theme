@@ -847,3 +847,6 @@ a, a:hover, a:active {
 
 .text-success {
   color: #75b82d; }
+
+mark {
+  background-color: #fac694; }

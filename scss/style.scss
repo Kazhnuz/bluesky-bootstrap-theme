@@ -15,6 +15,7 @@ $color-primary: $color-purple;
 $color-secondary: $color-blue;
 $color-link: $color-blue;
 $color-selection: $color-blue;
+$color-mark: $color-orange;
 
 @mixin borders() {
   border: $border-size solid rgba(0, 0, 0, 0.3)

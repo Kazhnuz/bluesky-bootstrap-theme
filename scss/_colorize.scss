@@ -195,3 +195,7 @@ a, a:hover, a:active {
   &-info { @include text-color($color-info); }
   &-success { @include text-color($color-success); }
 }
+
+mark {
+  background-color: lighten($color-mark, 30%)
+}
